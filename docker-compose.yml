@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  oca_book:
+    image: asciidoctor/docker-asciidoctor
+    command: asciidoctor-pdf -r asciidoctor-diagram example.adoc
+    volumes:
+    - .:/elegant-pdf-with-asciidoctor
+    working_dir: /elegant-pdf-with-asciidoctor/src/docs/asciidoc

@@ -1,0 +1,30 @@
+:encoding: utf-8
+:lang: en
+:author: Fatih Bozik
+:doctitle: Create Elegant Pdf with Asciidoctor
+:doctype: book
+
+:toc: left
+:toclevels: 3
+:sectnums:
+:chapter-label:
+:revnumber: 1.0
+:revremark: {docdate}
+
+:pdf-fontsdir: ../resources/fonts
+:pdf-stylesdir: ../resources/themes
+:imagesdir: ../resources/figures
+
+:pdf-style: elegant
+:icons: font
+:title-logo-image: image::logo.png[align=center, pdfwidth=2in]
+:source-highlighter: pygments
+:pygments-style: vs
+
+= {doctitle}
+
+include::chapters/ch1-version-history.adoc[Version History]
+
+include::chapters/ch2-introduction.adoc[Introduction]
+
+include::chapters/ch3-plantuml-diagram.adoc[Plantuml Diagram]

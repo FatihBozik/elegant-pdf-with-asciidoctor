@@ -1,0 +1,30 @@
+@startuml
+skinparam {
+    handwritten true
+    roundcorner 10
+
+    sequence {
+      messageAlign center
+      arrowColor black
+      arrowFontSize 18
+      arrowFontColor black
+
+      lifeline {
+        borderColor black
+      }
+    }
+
+    participant {
+      borderColor black
+      backgroundColor #ffffff
+      fontColor black
+      fontSize 18
+    }
+}
+
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: Another authentication Response
+@enduml

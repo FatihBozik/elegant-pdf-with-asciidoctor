@@ -1,1 +1,5 @@
 .idea
+*.pdf
+.DS_Store
+.asciidoctor
+*.svg
