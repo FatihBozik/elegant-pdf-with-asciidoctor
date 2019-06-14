@@ -1,5 +1,0 @@
-# Elegant Pdf With Asciidoctor
-
-Create elegant pdf document using asciidoctor-pdf.
-
-![](preview.gif)
