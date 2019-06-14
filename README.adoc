@@ -7,21 +7,9 @@ Create elegant pdf document using asciidoctor-pdf.
 docker-compose up
 ----
 
-== Pdf Screenshots
+== Sample Screenshots
 
-.Title
-image::pdf-screenshots/title-page.png[Title Page, scaledwidth=85.0%]
-
-.Version History
-image::pdf-screenshots/version-history-page.png[Version History Page, scaledwidth=85.0%]
-
-.Contents
-image::pdf-screenshots/contents-page.png[Contents Page, scaledwidth=85.0%]
-
-.Introduction
-image::pdf-screenshots/introduction-page.png[Introduction Page, scaledwidth=85.0%]
-
-.Plantuml
-image::pdf-screenshots/plantuml-page.png[Plantuml Page, scaledwidth=85.0%]
+- https://github.com/FatihBozik/elegant-pdf-with-asciidoctor/blob/master/pdf-screenshots/introduction-page.png[Source Code Highlighting]
+- https://github.com/FatihBozik/elegant-pdf-with-asciidoctor/blob/master/pdf-screenshots/plantuml-page.png[Plantuml]
 
 
